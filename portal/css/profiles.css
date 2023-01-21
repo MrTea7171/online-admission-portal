@@ -1,0 +1,26 @@
+.fee-body>.row>div {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 3px;
+    text-align: center;
+}
+
+.fee-body>.row:nth-child(3)>div {
+    border-top: 1px solid #000;
+}
+
+.fee-body>.row>div:first-child {
+    border-left: 1px solid #000;
+}
+
+.fee-body>.row>.col-md-2 {
+    border-top: 1px solid #000;
+}
+
+.fee-body>.row {
+    --bs-gutter-x: 0;
+}
+
+#page_title {
+    text-align: center;
+}

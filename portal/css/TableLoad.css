@@ -1,0 +1,94 @@
+body {
+    background: #FFF;
+}
+
+table {
+    width: 100%;
+}
+
+.addtion_form .addition_form_elements {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.top_add_bg {
+    padding-bottom: 20px;
+    background: #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #00000033;
+    overflow: hidden;
+}
+
+.manage_bg {
+    padding-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #00000033;
+    overflow: hidden;
+}
+
+.manage-box {
+    margin-top: 20px;
+}
+
+.manage-box .dataTables_wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.addtion_form h3,
+.manage-box h3 {
+    background: #1e4620;
+    color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.addtion_form .addition_form_elements label {
+    color: #FFF;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.addtion_form .addition_form_elements button[type="submit"],
+.action_btns {
+    background: #1e4620;
+    border: 0px;
+}
+
+.action_btns {
+    color: #FFF;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td,
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #6fbf72;
+    color: #FFF;
+}
+
+.dt-buttons {
+    margin-left: 20px;
+}
+
+.dt-button {
+    background: #1e4620 !important;
+    color: #fff !important;
+}
+
+.link_design_none {
+    color: inherit;
+    text-decoration: none;
+}
+
+label.error {
+    color: #FFF !important;
+    background: #FF0000;
+}
